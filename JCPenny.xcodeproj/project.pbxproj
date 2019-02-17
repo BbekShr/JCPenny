@@ -13,6 +13,8 @@
 		425DD9C4221904100079ED7F /* JCPenny.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 425DD9C2221904100079ED7F /* JCPenny.xcdatamodeld */; };
 		425DD9C6221904130079ED7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425DD9C5221904130079ED7F /* Assets.xcassets */; };
 		425DD9C9221904130079ED7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425DD9C7221904130079ED7F /* LaunchScreen.storyboard */; };
+		425DD9D1221923480079ED7F /* offerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425DD9D0221923480079ED7F /* offerCell.swift */; };
+		425DD9D3221928650079ED7F /* promoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425DD9D2221928650079ED7F /* promoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		425DD9C5221904130079ED7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		425DD9C8221904130079ED7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		425DD9CA221904130079ED7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425DD9D0221923480079ED7F /* offerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offerCell.swift; sourceTree = "<group>"; };
+		425DD9D2221928650079ED7F /* promoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				425DD9BB221904100079ED7F /* AppDelegate.swift */,
 				425DD9BD221904100079ED7F /* ViewController.swift */,
 				425DD9BF221904100079ED7F /* Main.storyboard */,
+				425DD9D2221928650079ED7F /* promoCell.swift */,
 				425DD9C5221904130079ED7F /* Assets.xcassets */,
 				425DD9C7221904130079ED7F /* LaunchScreen.storyboard */,
 				425DD9CA221904130079ED7F /* Info.plist */,
 				425DD9C2221904100079ED7F /* JCPenny.xcdatamodeld */,
+				425DD9D0221923480079ED7F /* offerCell.swift */,
 			);
 			path = JCPenny;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425DD9D1221923480079ED7F /* offerCell.swift in Sources */,
 				425DD9BE221904100079ED7F /* ViewController.swift in Sources */,
 				425DD9BC221904100079ED7F /* AppDelegate.swift in Sources */,
+				425DD9D3221928650079ED7F /* promoCell.swift in Sources */,
 				425DD9C4221904100079ED7F /* JCPenny.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
